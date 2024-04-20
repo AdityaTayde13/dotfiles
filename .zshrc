@@ -26,3 +26,6 @@ for f in ~/.config/zsh/aliases/*; do source "$f"; done
 
 PATH=$PATH:~/.local/bin
 
+## for zsh-histdb
+source ~/.local/share/zsh/zsh-histdb/sqlite-history.zsh
+autoload -Uz add-zsh-hook
